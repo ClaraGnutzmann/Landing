@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scake=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>HealthMax</title>
+</head>
+<body>
+	<section>
+		<div class="content">
+			<div>
+				<h2><img src="img/lc.png"></h2>
+				<h3>Lear more about our plans</h3>
+				<form>
+					<fieldset class="grupo">
+						<div class="campo">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" required>
+						</div>
+						<div class="campo">
+							<label for="lastname">LastName</label>
+							<input type="text" name="lastname" id="lastname"required>
+						</div>
+					</fieldset>
+					<div class="campo">
+						<label for="Email">Email</label>
+						<input type="Email" name="Email" id="Email" required>
+					</div>
+					<fieldset class="grupo">
+					<div class="campo">
+						<label>Select your gender</label>
+						<label>
+							<input type="radio" name="gender" value="female">Female
+						</label>
+						<label>
+							<input type="radio" name="gender" value="male">Male
+						</label>
+						<label>
+							<input type="radio" name="gender" value="other">Other
+						</label>
+					</div>
+					</fieldset class="grupo">
+					<div class="campo">
+						<label>Select a plan</label>
+						<select id="fplan">
+							<option selected disabled value="">Select</option>
+							<option>Family Plan</option>
+							<option>Individul Plan</option>
+							<option>Corporative Plan</option>
+						</select>
+					</div>
+					<fieldset><div class="campo">
+						<label>previously known conditions</label>
+						<input type="checkbox" id="disease1" name="disease1" value="diabetes">
+						<label for="disease1">diabetes</label>
+						<input type="checkbox" id="disease2" name="disease2" value="HBP">
+						<label for="disease2">HBP</label>
+						<input type="checkbox" id="disease3" name="disease3" value="pregnant">
+						<label for="disease3">Pregnant</label>
+						<input type="checkbox" id="disease4" name="disease4" value="other">
+						<label for="disease4">Other</label></div>
+					</fieldset>
+					<div class="campo">
+						<br>
+						<label>Tell us a little about you</label>
+						<textarea rows="5" style="width: 26em" id="history" name="history"></textarea>
+					</div>
+					<button type="submit">Submit</button>
+
+				</form>
+
+			</div>
+		</div>
+		<div class="imgBX">
+			<img src="img/health.png">
+		</div>
+		<div>
+			<ul class="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html" class="active">About</a></li>
+				<li><a href="health.html">Health Insurance</a></li>
+				<li><a href="plans">Plans</a></li>
+				<li><a href="#">Covid19</a></li>
+				
+			</ul>
+		</div>
+				<div>
+			<ul class="sci">
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Instagram</a></li>
+				<li><a href="#">Work with us</a></li>
+				
+			</ul>
+		</div>
+	</section>
+
+</body>
+</html>
